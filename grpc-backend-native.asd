@@ -3,7 +3,8 @@
   :description "qitab/grpc (egao1980 fork) backend for grpc-protocol"
   :author "egao1980"
   :license "MIT"
-  :depends-on ("grpc-protocol")
+  :depends-on ("grpc-protocol"
+               #-win32 "grpc")
   :serial t
   :pathname "src"
   :components ((:file "package")
