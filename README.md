@@ -19,7 +19,7 @@ Unary uses public `grpc:grpc-call`. Streams use the same CFFI call object (`star
 
 Do not load a workspace git checkout of `grpc` for consumers — install the GHCR overlay via cl-repo (`0.9-rc1` / highest tag).
 
-CI: `setup-client` + `setup-roswell` + `scripts/ci-install.lisp` / `ci-test.lisp` (OCI only).
+CI: canned [`cl-repository`](https://github.com/egao1980/cl-repository) (`test-system.yml` / `setup-client` + `ci`). Deps from `ghcr.io/egao1980/cl-systems`.
 
 ## License
 
