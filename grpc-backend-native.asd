@@ -5,6 +5,7 @@
   :license "MIT"
   :depends-on ("grpc-protocol"
                #-win32 "grpc")
+  :properties (:cl-repo (:ci (:with ("dissect") :sources (("dissect" :ql)))))
   :serial t
   :pathname "src"
   :components ((:file "package")
